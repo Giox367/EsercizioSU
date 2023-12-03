@@ -1,0 +1,21 @@
+.chat-list-container {
+    width: 250px;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+  }
+  
+  .chat-list-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .chat-list-container li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .chat-list-container li:hover {
+    background-color: #f0f0f0;
+  }
